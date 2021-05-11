@@ -21,4 +21,11 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Poppins', sans-serif;
-  }
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+}
+
+h1:hover,
+h1:focus{
+    transform: translateX(10px) scale(1.2);
+}  
