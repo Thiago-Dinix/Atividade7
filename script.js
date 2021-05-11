@@ -1,6 +1,6 @@
-const nome = prompt("Olá, tudo bem? Gostaria de saber seu nome.")
+const nome = window.prompt("Olá, tudo bem? Gostaria de saber seu nome.")
 
-const anoNascimento = parseInt(prompt("Agora, me fale seu ano de nascimento"))
+const anoNascimento = parseInt(window.prompt("Agora, me fale seu ano de nascimento"))
 
 const anoAtual = 2021
 
@@ -13,6 +13,6 @@ let string1 = nome
 
 console.log(`O nome dele é ${nome}, ele nasceu em ${anoNascimento}, e em 2021 ele vai fazer ou já tem ${number1-number2} anos!`)
 
-alert(`O seu nome é ${nome}, e você nasceu em ${anoNascimento}, e em 2021 ele vai fazer ou já fez ${number1-number2} anos!`)
+alert(`O seu nome é ${nome}, e você nasceu em ${anoNascimento}, e em 2021 você vai fazer ou já fez ${number1-number2} anos!`)
 
 const certo = prompt("Estou certo?")
